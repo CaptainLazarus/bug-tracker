@@ -1,5 +1,0 @@
-.gitignore
-build
-.env
-node_modules
-./server/ormconfig.js
