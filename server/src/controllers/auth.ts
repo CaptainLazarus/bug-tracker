@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import { User } from '../entity/User';
 import jwt from 'jsonwebtoken';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import { JWT_SECRET } from '../utils/config';
 import { registerValidator, loginValidator } from '../utils/validators';
 
