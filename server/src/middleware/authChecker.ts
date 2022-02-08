@@ -28,7 +28,7 @@ const authChecker = (req: Request, res: Response, next: NextFunction) => {
     req.user = decodedToken.id;
     next();
   } catch (error) {
-    var errorMessage = "Lovely";
+    const errorMessage = "Lovely";
     if (error instanceof Error) {
       res.status(500).send({ message: error.message });
     }
