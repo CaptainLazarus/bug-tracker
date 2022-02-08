@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "outDir": "./build/",
+    "outDir": "./dist",
     "rootDir": "./src",
-    "module": "commonjs",
+    "module":"commonjs",
     "moduleResolution": "node",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
@@ -21,6 +21,7 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
     "typeRoots": ["./types", "./node_modules/@types"]
   }
 }
