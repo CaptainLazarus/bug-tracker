@@ -1,0 +1,1 @@
+{"version":3,"file":"BaseModel.js","sourceRoot":"","sources":["../../src/entity/BaseModel.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;AAAA,mCAKiB;AAEjB;IAA4C,yBAAU;IAAtD;;IASA,CAAC;IAPC;QADC,IAAA,gCAAsB,EAAC,MAAM,CAAC;;qCACpB;IAGX;QADC,IAAA,0BAAgB,GAAE;kCACR,IAAI;4CAAC;IAGhB;QADC,IAAA,0BAAgB,GAAE;kCACR,IAAI;4CAAC;IAClB,YAAC;CAAA,AATD,CAA4C,oBAAU,GASrD;kBAT6B,KAAK"}
