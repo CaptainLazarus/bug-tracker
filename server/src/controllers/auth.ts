@@ -14,7 +14,7 @@ export const signupUser = async (req: Request, res: Response) => {
   }
 
   const existingUser = await User.findOne({
-    where: `"username" ILIKE '${username}'`,
+    where: `username = '${username}'`,
   });
 
   if (existingUser) {
@@ -53,7 +53,7 @@ export const loginUser = async (req: Request, res: Response) => {
   }
 
   const user = await User.findOne({
-    where: `"username" ILIKE '${username}'`,
+    where: `username = '${username}'`,
   });
 
   if (!user) {
