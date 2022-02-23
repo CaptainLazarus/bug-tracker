@@ -1,0 +1,9 @@
+{
+  "type": "mariadb",
+  "host": "172.19.0.2",
+  "port": 3306,
+  "username": "root",
+  "password": "pass",
+  "database": "test_db",
+  "entities": ["dist/entity/*.js"]
+}
